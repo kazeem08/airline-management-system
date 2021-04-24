@@ -23,7 +23,9 @@ let schema = mongoose.schema(
     arrivalCity: { type: String, required: true },
     departureCity: { type: String, required: true },
     noOfSeats: { type: Number, required: true },
-    isAvailable: { type: Boolean, required: true }
+    isAvailable: { type: Boolean, required: true },
+    flightStatus: { type: String},
+    statusReason: { type: String }
   },
   {
     timestamps: true,
