@@ -14,14 +14,14 @@ This application is an airline management system
   - postgres
 
 * Configuration
-	-	Clone the repo or Download the ZIP file
+	-	Clone the repo https://github.com/kazeem08/airline-management-system.git
 	-	Run npm install, to install dependencies.
   - Create .env files and add the variables(an env sample file is provided)
 	-	Run npm start, to start the app
 
 
 	###	Thought Process
-  - The application is built in a way whereby the every other things is related to the flight Model. 
+  - The application is built in a way whereby every other things is related to the flight Model. 
     I had in mind the application should be able to handle different operations. From booking flights, 
     changing flight status(delayed, cancelled e.t.c), creating and tracking bookings, customer details, crew members.
 
